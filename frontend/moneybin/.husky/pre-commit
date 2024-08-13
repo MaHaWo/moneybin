@@ -1,7 +1,5 @@
-# Add node_modules/.bin to PATH
-export PATH="$PATH:$(npm root)"
-
-npm format
-npm lint
-npm check
-npm test
+cd ./frontend/moneybin
+npm run format
+npm run lint
+npm run check
+npm run test
