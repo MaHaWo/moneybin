@@ -1,3 +1,6 @@
+# Add node_modules/.bin to PATH
+export PATH="$PATH:$(npm root)"
+
 npm format
 npm lint
 npm check
