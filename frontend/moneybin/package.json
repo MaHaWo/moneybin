@@ -11,7 +11,7 @@
         "test": "vitest run frontend/tests",
         "lint": "prettier --check src tests && eslint src tests",
         "format": "prettier --write src tests",
-        "prepare": "cd .. && husky frontend/.husky"
+        "prepare": "cd ../.. && husky frontend/moneybin/.husky"
 
     },
     "directories": {
