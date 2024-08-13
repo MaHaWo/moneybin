@@ -13,3 +13,11 @@ describe('dummy test', () => {
 });
 
 
+
+describe('dummy test2', () => {
+	it('always passes', () => {
+		expect(true).toBeTruthy();
+	});
+});
+
+
