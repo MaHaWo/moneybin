@@ -29,5 +29,8 @@
 		"vite": "^5.0.3",
 		"vitest": "^2.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"cypress": "^13.13.2"
+	}
 }
